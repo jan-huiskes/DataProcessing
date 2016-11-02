@@ -6,7 +6,16 @@ This script scrapes IMDB and outputs a CSV file with highest rated tv series.
 '''
 import csv
 
-from pattern.web import URL, DOM
+from pattern.web import URL, DOM, abs
+
+# for extracting only the number in runtime
+import re
+
+# encoding = utf8, for characters that aren't recognized by python 
+import sys
+reload(sys)
+sys.setdefaultencoding('utf8')
+
 
 TARGET_URL = "http://www.imdb.com/search/title?num_votes=5000,&sort=user_rating,desc&start=1&title_type=tv_series"
 BACKUP_HTML = 'tvseries.html'
@@ -24,13 +33,43 @@ def extract_tvseries(dom):
     - Actors/actresses (comma separated if more than one)
     - Runtime (only a number!)
     '''
+    # list with lists for each serie
+    elements_list = []
 
-    # ADD YOUR CODE HERE TO EXTRACT THE ABOVE INFORMATION ABOUT THE
-    # HIGHEST RATED TV-SERIES
-    # NOTE: FOR THIS EXERCISE YOU ARE ALLOWED (BUT NOT REQUIRED) TO IGNORE
-    # UNICODE CHARACTERS AND SIMPLY LEAVE THEM OUT OF THE OUTPUT.
+    # loop each serie
+    for element in dom.body.by_class("lister-item-content"):
+        # eacht time a new list for serie
+        list1 = []
+        # first link is the title
+        for title in element.get_elements_by_tagname("a")[0]:
+            list1.append(title)
+        # first strong tag is rating
+        for rating in element.get_elements_by_tagname("strong")[0]:
+            list1.append(rating)
+        # content of class genre without the whitespace
+        for genre in element.get_elements_by_classname("genre"):
+            list1.append(genre.content.strip())
+        # search for the string Stars in classes
+        for act in element.get_elements_by_classname(""):
+            if 'Stars' in act:
+                # string for names
+                names = ""
+                # add each name to string (with comma and whitespace)
+                for name in act.get_elements_by_tagname("a"):
+                    name = name.content
+                    names += name + ', '
+                # avoid last comma and whitespace
+                list1.append(names[:-2])
+        # runtime only numbers by findall. This will return a list, where runtime is the only item
+        for runtime in element.get_elements_by_classname("runtime"):
+            runtime = runtime.content
+            runtime = re.findall('\d+', runtime)
+            runtime = runtime[0]
+            list1.append(runtime)
+        # append the list to the list of elements
+        elements_list.append(list1)
 
-    return []  # replace this line as well as appropriate
+    return elements_list
 
 
 def save_csv(f, tvseries):
@@ -39,8 +78,10 @@ def save_csv(f, tvseries):
     '''
     writer = csv.writer(f)
     writer.writerow(['Title', 'Rating', 'Genre', 'Actors', 'Runtime'])
+    # loop for each tvserie
+    for i in range(len(tvseries)):
+        writer.writerow(tvseries[i])
 
-    # ADD SOME CODE OF YOURSELF HERE TO WRITE THE TV-SERIES TO DISK
 
 if __name__ == '__main__':
     # Download the HTML file
