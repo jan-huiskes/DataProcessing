@@ -431,20 +431,31 @@ ctx.lineTo(transformX(365), transformY(-40));
 ctx.moveTo(transformX(0), transformY(-40));
 ctx.lineTo(transformX(0), transformY(320));
 
+// functions voor days in month
+function daysInMonth(month,year) {
+    return new Date(year, month, 0).getDate();
+}
+
 // Label axes with title and units
 ctx.fillText('T (\xBAC)', transformX(-35), transformY(310))
 for (var i = 0; i < 8; i++){
-  ctx.fillText(30 - i * 5 + " -", transformX(-10), transformY(310 - i * 50));
+  ctx.fillText(30 - i * 5 , transformX(-10), transformY(310 - i * 50));
+  ctx.fillText('-', transformX(-2), transformY(310 - i * 50));
 };
 ctx.fillText('Month', transformX(340), transformY(-75))
+
+// Needed for good amount of days in month
+var days = -31;
 for (var i = 0; i < 12; i++){
+  // Add days in the month to days, days start at 0 on Januari
+  days += daysInMonth((i + 1), 2015);
   ctx.fillText("|", transformX(i * 30),transformY(-46))
-  ctx.fillText(month[i], transformX(i * 30), transformY(-60));
+  ctx.fillText(month[i], transformX(days), transformY(-60));
 };
 
 // Plot title
 ctx.font = "30px serif";
-ctx.fillText("Gemiddelde temperatuur per dag in 2015", 100, 50);
+ctx.fillText("Gemiddelde temperatuur per dag in De Bilt 2015", 100, 50);
 ctx.stroke();
 
 
