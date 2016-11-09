@@ -449,7 +449,7 @@ var days = -31;
 for (var i = 0; i < 12; i++){
   // Add days in the month to days, days start at 0 on Januari
   days += daysInMonth((i + 1), 2015);
-  ctx.fillText("|", transformX(i * 30),transformY(-46))
+  ctx.fillText("|", transformX(days), transformY(-46))
   ctx.fillText(month[i], transformX(days), transformY(-60));
 };
 
