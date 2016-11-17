@@ -1,0 +1,23 @@
+/* Jan Huiskes 10740929 */
+
+/* continent color */
+.continent
+{
+
+}
+
+/* country colors */
+#fra
+{
+  fill: red;
+}
+
+#dui
+{
+  fill: blue;
+}
+
+#esp
+{
+  fill: green;
+}
