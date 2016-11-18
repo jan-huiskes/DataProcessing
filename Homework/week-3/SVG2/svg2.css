@@ -1,5 +1,13 @@
-/* continent color */
-.continent
-{
-
-}
+/* positioning */
+.legend { list-style: none; }
+.legend li { float: none; margin-right: 10px; }
+.legend span { border: 1px solid #ccc; float: left; width: 12px; height: 12px; margin: 2px; }
+/* colors */
+.legend .lower { background-color: #ffffcc; }
+.legend .middle1 { background-color: #c7e9b4; }
+.legend .middle2 { background-color: #7fcdbb; }
+.legend .middle3 { background-color: #41b6c4; }
+.legend .middle4 { background-color: #1d91c0; }
+.legend .middle5 { background-color: #225ea8; }
+.legend .upper { background-color: #0c2c84; }
+.legend .unknown { background-color: #993300; }

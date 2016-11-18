@@ -70,7 +70,7 @@
 
     <h2> Population by country in Europe </h2>
     <!-- Your SVG should go here -->
-    <svg xmlns="http://www.w3.org/2000/svg" height="442.84" id="svg2985" version="1.1" viewBox="1400 150 400 530" width="863.21002">
+    <svg xmlns="http://www.w3.org/2000/svg" height="1000" id="svg2985" version="1.1" viewBox="1350 150 10 400" width="1200">
       <title>SVG Map</title>
       <defs id="defs2987"/>
 
@@ -263,13 +263,32 @@
       </path>
     </svg>
 
+  <form>
+  <fieldset>
+    <legend>Population in millions</legend>
+      <ul class="legend">
+          <li><span class="lower"></span> < 1 </li>
+          <li><span class="middle1"></span> 1 - 5 </li>
+          <li><span class="middle2"></span> 5 - 10</li>
+          <li><span class="middle3"></span> 10 - 20 </li>
+          <li><span class="middle4"></span> 20 - 40</li>
+          <li><span class="middle5"></span> 40 - 60</li>
+          <li><span class="upper"></span> > 60 </li>
+          <li><span class="unknown"></span> unknown</li>
+      </ul>
+    </fieldset>
+  </form>
+
+
+   <br><br/>
     <p>
       My choice for color is a sequential choice. It has the color blue from dark to light, which gives a good contrast
       between high population (dark) and a low population (light). The countries with unknown data are colored brown,
       so they are easily visible between the known data points. It's a better choice of color than the example in my opinion,
       because the difference between high and low is easier to see. Using different colors does not give a good contrast.
       The upper boundary is > 60.000.000 and lower < 1.000.000, which include some countries. I chose my boundaries depending on
-      how many countries a boundary would contain (not too much, not too little). The boundaries are integers in millions.
+      how many countries a boundary would contain (not too much, not too little). The boundaries are integers in millions. source:
+      https://www.worlddata.info/downloads/
    </p>
 
     </body>
