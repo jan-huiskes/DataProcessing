@@ -18,10 +18,13 @@ jsonfile.write('{')
 jsonfile.write('\n')
 jsonfile.write('"points" : [')
 jsonfile.write('\n')
-
+i = 0
 for row in reader:
+    print row
     json.dump(row, jsonfile, ensure_ascii=False)
-    jsonfile.write(',\n')
+    if i != 11: # number of lines - 1
+        jsonfile.write(',\n')
+    i += 1
 
 jsonfile.write(']')
 jsonfile.write('\n')

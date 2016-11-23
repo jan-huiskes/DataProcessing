@@ -89,5 +89,7 @@ svg.append("text")
     .attr("class", 'Title')
     .attr("text-anchor", "middle")
     .attr("transform", "translate("+ (width / 2 - padding / 2) +","+ padding / 1.8 +")")
-    .text("Rain  by month in 2015");
+    .text("Rain (in mm) by month in 2015");
 });
+
+d3.select("body").append("a").attr("href", "https://bost.ocks.org/mike/bar/3/").html("Bron")
