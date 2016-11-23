@@ -1,0 +1,44 @@
+/*
+Jan Huiskes
+10740929
+*/
+
+
+/* Rectangles style */
+
+.chart rect {
+  fill: steelblue;
+}
+
+/* Title style */
+
+.axTitle {
+  fill: black;
+  font: 16px sans-serif;
+}
+
+.Title {
+  fill: black;
+  font: 25px sans-serif;
+  font-weight: bold;
+}
+
+/* Hover style  */
+.bar:hover {
+  fill: brown;
+}
+
+.d3-tip {
+  color: steelblue;
+}
+
+/* Axes style */
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+.axis text {
+  font: 10px sans-serif;
+}
