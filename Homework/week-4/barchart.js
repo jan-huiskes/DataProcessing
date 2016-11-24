@@ -92,4 +92,8 @@ svg.append("text")
     .text("Rain (in mm) by month in 2015");
 });
 
-d3.select("body").append("a").attr("href", "https://bost.ocks.org/mike/bar/3/").html("Bron")
+// Sources and whitespace
+d3.select("body").append("br")
+d3.select("body").append("a").attr("href", "https://cdn.knmi.nl/knmi/map/page/klimatologie/gegevens/maandgegevens/mndgeg_260_rh24.txt").html("Bron voor data")
+d3.select("body").append("br")
+d3.select("body").append("a").attr("href", "https://bost.ocks.org/mike/bar/3/").html("Bron voor grafiek")
