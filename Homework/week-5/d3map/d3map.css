@@ -1,0 +1,17 @@
+/*
+Jan Huiskes
+10740929
+*/
+/* positioning */
+.legend { list-style: none; }
+.legend li { float: none; margin-right: 10px; }
+.legend span { border: 1px solid #ccc; float: left; width: 12px; height: 12px; margin: 2px; }
+/* colors */
+.legend .lower { background-color: #ffffcc; }
+.legend .middle1 { background-color: #fcc5c0; }
+.legend .middle2 { background-color: #fa9fb5; }
+.legend .middle3 { background-color: #f768a1; }
+.legend .middle4 { background-color: #dd3497; }
+.legend .middle5 { background-color: #ae017e; }
+.legend .upper { background-color: #7a0177; }
+.legend .unknown { background-color: #EDDC4E; }

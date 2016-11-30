@@ -1,0 +1,45 @@
+<!-- Jan Huiskes 10740929 -->
+
+<!DOCTYPE html> <meta charset="utf-8">
+<html>
+    <head>
+          <title>World map by population</title>
+           <script src="http://d3js.org/d3.v3.min.js"></script>
+           <link rel="stylesheet" type="text/css" href="d3map.css"/>
+          <script src="http://d3js.org/topojson.v1.min.js"></script>
+          <script src="http://datamaps.github.io/scripts/datamaps.world.min.js?v=1"></script>
+
+    </head>
+    <body>
+  <h2> Population by country in 2015 </h2>
+      <div id="container" style="position: relative; width: 1000px; height: 500px;"></div>
+          <script src="d3map.js"></script>
+          <fieldset>
+            <legend>Population in millions</legend>
+              <ul class="legend">
+                  <li><span class="lower"></span> < 5 </li>
+                  <li><span class="middle1"></span> 5 - 10 </li>
+                  <li><span class="middle2"></span> 10 - 30</li>
+                  <li><span class="middle3"></span> 30 - 60 </li>
+                  <li><span class="middle4"></span> 60 - 100</li>
+                  <li><span class="middle5"></span> 100 - 1000</li>
+                  <li><span class="upper"></span> > 1000 </li>
+                  <li><span class="unknown"></span> unknown</li>
+              </ul>
+            </fieldset>
+
+               <br><br/>
+                <p>
+                  The mouseover effects in my figure are highlighting the country and generatign a pop up with the name of the country and the specific
+                  population number. I did this because my figure is a map filled in with colors based on the popualtion number and this mouseover effect
+                  enables the user to see exactly which country he is seeing on the map and what the name and popualtion is of that country. This interactivity
+                  makes the map more specific than a global map colored in. My choice for color is a sequential choice.
+                  It has the color purple from dark to light, which gives a good contrast between high population (dark) and a low population (light). The countries with unknown data are colored yellow,
+                  so they are easily visible between the known data points. 
+                </p>
+               <br><br/>
+               <a href='http://data.worldbank.org/indicator/SP.POP.TOTL'>Bron data</a>
+                <br><br/>
+                <p>Jan Huiskes 10740929</p>
+    </body>
+</html>
