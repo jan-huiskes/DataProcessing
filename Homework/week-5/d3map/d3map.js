@@ -11,8 +11,10 @@ colors = ['#ffffcc',
 
 d3.json("datamap/data.json", function(error, data) {
 
+// make map
 var map = new Datamap({element: document.getElementById('container'),
 geographyConfig: {
+  // pop up with name and population, if there is data, else unknown population
  popupTemplate: function(geography, data) {
 string = '<div class="hoverinfo">'
 string += '<strong>' + geography.properties.name + '</strong>'
@@ -36,6 +38,7 @@ fills: {
   'low': colors[0], // < 5*10^6
   defaultFill: '#EDDC4E'
 },
+// data
 data : data.data
 })
 });

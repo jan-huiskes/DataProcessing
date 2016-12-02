@@ -16,10 +16,11 @@ csvfile3 = open('countries2.csv', 'r')
 
 jsonfile.write('{"data" : {')
 jsonfile.write('\n')
-i = 0
+i = 0 # keep track of rows
 for row in csvfile3:
     row = row.replace('"', '').split(',')
     jsonfile.write('"' + row[0] + '": {')
+    # write rows based on the popualtion data
     if int(row[1]) >= 10**9:
         jsonfile.write('"fillKey": "high",')
         jsonfile.write('\n')
@@ -48,7 +49,7 @@ for row in csvfile3:
         jsonfile.write('"fillKey": "low",')
         jsonfile.write('\n')
         jsonfile.write('"population": ' + row[1] + '}')
-    if i != 261:
+    if i != 261: # dont write a comma after the last row
         jsonfile.write(',\n')
     else:
         jsonfile.write('\n')

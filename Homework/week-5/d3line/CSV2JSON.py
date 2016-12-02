@@ -20,8 +20,9 @@ csvfile = open('data.csv', 'r')
 jsonfile.write('{')
 jsonfile.write('\n')
 jsonfile.write('"data" : [{')
-i = 0
+i = 0 # keep track of row
 for row in csvfile:
+    # data types in each row
     if i == 1 or i == 4:
         word = "maxtemp"
     if i == 2 or i == 5:
@@ -29,11 +30,14 @@ for row in csvfile:
     if i == 3 or i == 6:
         word = "gemtemp"
     row = row.strip().split(',')
+    # first row is not data
     if i > 0:
         jsonfile.write('\n')
+        # 2014
         if i == 1:
             jsonfile.write('"' + row[1] + '": [{')
         if i < 4:
+            # for each month maxtemp, mintemp and gemtemp
             jsonfile.write('"' + word + '": [')
             for j in range(12):
                 if j != 11:
@@ -51,8 +55,10 @@ for row in csvfile:
             jsonfile.write('\n')
             jsonfile.write('}],')
             jsonfile.write('\n')
+            # 2015
             jsonfile.write('"' + row[1] + '": [{')
         if i > 3:
+            # for each month maxtemp, mintemp and gemtemp
             jsonfile.write('"' + word + '": [')
             for j in range(12):
                 if j != 11:
