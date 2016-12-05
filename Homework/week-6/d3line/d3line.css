@@ -2,8 +2,12 @@
 Jan Huiskes
 10740929
 */
-.chart rect {
-  fill: steelblue;
+
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
 }
 
 /* Title style */
