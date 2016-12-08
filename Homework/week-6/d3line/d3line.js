@@ -8,7 +8,7 @@ var margin = {top: 50, right: 30, bottom: 50, left: 40},
     height = 500 - margin.top - margin.bottom;
     padding = 100
 
-// parse time for the dates
+// Parse time for the dates
 var parseTime = d3.timeParse("%B-%Y")
 
 // Scale y
