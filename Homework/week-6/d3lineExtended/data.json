@@ -1,0 +1,97 @@
+{
+"data" : [{
+"2014": [{"kind": "maxtemp",
+"values": [
+{"month": "January-2014", "temp":"    80"},
+{"month": "February-2014", "temp":"    97"},
+{"month": "March-2014", "temp":"   138"},
+{"month": "April-2014", "temp":"   171"},
+{"month": "May-2014", "temp":"   177"},
+{"month": "June-2014", "temp":"   209"},
+{"month": "July-2014", "temp":"   246"},
+{"month": "August-2014", "temp":"   204"},
+{"month": "September-2014", "temp":"   210"},
+{"month": "October-2014", "temp":"   170"},
+{"month": "November-2014", "temp":"   108"},
+{"month": "December-2014", "temp":"    71"}
+]},
+{"kind": "mintemp",
+"values": [
+{"month": "January-2014", "temp":"    33"},
+{"month": "February-2014", "temp":"    35"},
+{"month": "March-2014", "temp":"    31"},
+{"month": "April-2014", "temp":"    71"},
+{"month": "May-2014", "temp":"    83"},
+{"month": "June-2014", "temp":"   104"},
+{"month": "July-2014", "temp":"   148"},
+{"month": "August-2014", "temp":"   116"},
+{"month": "September-2014", "temp":"   105"},
+{"month": "October-2014", "temp":"   103"},
+{"month": "November-2014", "temp":"    54"},
+{"month": "December-2014", "temp":"    21"}
+]},
+{"kind": "gemtemp",
+"values": [
+{"month": "January-2014", "temp":"    57"},
+{"month": "February-2014", "temp":"    65"},
+{"month": "March-2014", "temp":"    84"},
+{"month": "April-2014", "temp":"   121"},
+{"month": "May-2014", "temp":"   132"},
+{"month": "June-2014", "temp":"   162"},
+{"month": "July-2014", "temp":"   198"},
+{"month": "August-2014", "temp":"   161"},
+{"month": "September-2014", "temp":"   159"},
+{"month": "October-2014", "temp":"   134"},
+{"month": "November-2014", "temp":"    82"},
+{"month": "December-2014", "temp":"    48"}
+]}
+
+],
+"2015": [{"kind": "maxtemp",
+"values": [
+{"month": "January-2015", "temp":"    64"},
+{"month": "February-2015", "temp":"    70"},
+{"month": "March-2015", "temp":"   102"},
+{"month": "April-2015", "temp":"   143"},
+{"month": "May-2015", "temp":"   170"},
+{"month": "June-2015", "temp":"   203"},
+{"month": "July-2015", "temp":"   232"},
+{"month": "August-2015", "temp":"   236"},
+{"month": "September-2015", "temp":"   178"},
+{"month": "October-2015", "temp":"   138"},
+{"month": "November-2015", "temp":"   128"},
+{"month": "December-2015", "temp":"   119"}
+]},
+{"kind": "mintemp",
+"values": [
+{"month": "January-2015", "temp":"    15"},
+{"month": "February-2015", "temp":"     0"},
+{"month": "March-2015", "temp":"    18"},
+{"month": "April-2015", "temp":"    30"},
+{"month": "May-2015", "temp":"    67"},
+{"month": "June-2015", "temp":"    94"},
+{"month": "July-2015", "temp":"   132"},
+{"month": "August-2015", "temp":"   130"},
+{"month": "September-2015", "temp":"    90"},
+{"month": "October-2015", "temp":"    54"},
+{"month": "November-2015", "temp":"    68"},
+{"month": "December-2015", "temp":"    75"}
+]},
+{"kind": "gemtemp",
+"values": [
+{"month": "January-2015", "temp":"    40"},
+{"month": "February-2015", "temp":"    35"},
+{"month": "March-2015", "temp":"    62"},
+{"month": "April-2015", "temp":"    90"},
+{"month": "May-2015", "temp":"   124"},
+{"month": "June-2015", "temp":"   156"},
+{"month": "July-2015", "temp":"   184"},
+{"month": "August-2015", "temp":"   185"},
+{"month": "September-2015", "temp":"   134"},
+{"month": "October-2015", "temp":"    99"},
+{"month": "November-2015", "temp":"    99"},
+{"month": "December-2015", "temp":"    96"}
+]}
+]
+}]
+}

@@ -6,15 +6,14 @@ Jan Huiskes
 
 .line {
   fill: none;
-  stroke: steelblue;
   stroke-width: 1.5px;
 }
 
 .circle {
     fill: white;
-    stroke: steelblue;
     stroke-width: 2px;
 }
+
 .circle:hover {
   fill: red;
 }
@@ -41,6 +40,23 @@ Jan Huiskes
   font: 25px sans-serif;
   font-weight: bold;
 }
+
+/* Button style */
+.button {
+  fill: #567ba0;
+  stroke-width: 2px;
+}
+
+#text-button {
+  font-size: 15px;
+  fill: #fff;
+  pointer-events: none;
+  text-anchor: middle;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
 
 /* Cross Hair style */
 .overlay {
