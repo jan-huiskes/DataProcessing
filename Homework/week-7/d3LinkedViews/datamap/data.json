@@ -1,0 +1,789 @@
+{"data" : {
+"ABW": {"fillKey": "low",
+"population": 103441
+},
+"AND": {"fillKey": "low",
+"population": 72786
+},
+"AFG": {"fillKey": "mid3",
+"population": 31627506
+},
+"AGO": {"fillKey": "mid2",
+"population": 24227524
+},
+"ALB": {"fillKey": "low",
+"population": 2893654
+},
+"ARB": {"fillKey": "mid5",
+"population": 384222592
+},
+"ARE": {"fillKey": "mid1",
+"population": 9086139
+},
+"ARG": {"fillKey": "mid3",
+"population": 42980026
+},
+"ARM": {"fillKey": "low",
+"population": 3006154
+},
+"ASM": {"fillKey": "low",
+"population": 55434
+},
+"ATG": {"fillKey": "low",
+"population": 90900
+},
+"AUS": {"fillKey": "mid2",
+"population": 23464086
+},
+"AUT": {"fillKey": "mid1",
+"population": 8541575
+},
+"AZE": {"fillKey": "mid1",
+"population": 9535079
+},
+"BDI": {"fillKey": "mid2",
+"population": 10816860
+},
+"BEL": {"fillKey": "mid2",
+"population": 11231213
+},
+"BEN": {"fillKey": "mid2",
+"population": 10598482
+},
+"BFA": {"fillKey": "mid2",
+"population": 17589198
+},
+"BGD": {"fillKey": "mid5",
+"population": 159077513
+},
+"BGR": {"fillKey": "mid1",
+"population": 7223938
+},
+"BHR": {"fillKey": "low",
+"population": 1361930
+},
+"BHS": {"fillKey": "low",
+"population": 377841
+},
+"BIH": {"fillKey": "low",
+"population": 3817554
+},
+"BLR": {"fillKey": "mid1",
+"population": 9483000
+},
+"BLZ": {"fillKey": "low",
+"population": 351706
+},
+"BMU": {"fillKey": "low",
+"population": 65139
+},
+"BOL": {"fillKey": "mid2",
+"population": 10561887
+},
+"BRA": {"fillKey": "mid5",
+"population": 206077898
+},
+"BRB": {"fillKey": "low",
+"population": 283380
+},
+"BRN": {"fillKey": "low",
+"population": 417394
+},
+"BTN": {"fillKey": "low",
+"population": 765008
+},
+"BWA": {"fillKey": "low",
+"population": 2219937
+},
+"CAF": {"fillKey": "low",
+"population": 4804316
+},
+"CAN": {"fillKey": "mid3",
+"population": 35543658
+},
+"CEB": {"fillKey": "mid5",
+"population": 103496179
+},
+"CHE": {"fillKey": "mid1",
+"population": 8188649
+},
+"CHI": {"fillKey": "low",
+"population": 162917
+},
+"CHL": {"fillKey": "mid2",
+"population": 17762647
+},
+"CHN": {"fillKey": "high",
+"population": 1364270000
+},
+"CIV": {"fillKey": "mid2",
+"population": 22157107
+},
+"CMR": {"fillKey": "mid2",
+"population": 22773014
+},
+"COG": {"fillKey": "low",
+"population": 4394334
+},
+"COL": {"fillKey": "mid3",
+"population": 47791393
+},
+"COM": {"fillKey": "low",
+"population": 769991
+},
+"CPV": {"fillKey": "low",
+"population": 513906
+},
+"CRI": {"fillKey": "low",
+"population": 4757606
+},
+"CSS": {"fillKey": "mid1",
+"population": 7012857
+},
+"CUB": {"fillKey": "mid2",
+"population": 11379111
+},
+"CUW": {"fillKey": "low",
+"population": 155909
+},
+"CYM": {"fillKey": "low",
+"population": 59172
+},
+"CYP": {"fillKey": "low",
+"population": 1153658
+},
+"CZE": {"fillKey": "mid2",
+"population": 10525347
+},
+"DEU": {"fillKey": "mid4",
+"population": 80982500
+},
+"DJI": {"fillKey": "low",
+"population": 876174
+},
+"DMA": {"fillKey": "low",
+"population": 72341
+},
+"DNK": {"fillKey": "mid1",
+"population": 5643475
+},
+"DOM": {"fillKey": "mid2",
+"population": 10405943
+},
+"DZA": {"fillKey": "mid3",
+"population": 38934334
+},
+"EAP": {"fillKey": "high",
+"population": 2020656037
+},
+"EAR": {"fillKey": "high",
+"population": 3079001949
+},
+"EAS": {"fillKey": "high",
+"population": 2264064351
+},
+"ECA": {"fillKey": "mid5",
+"population": 408984246
+},
+"ECS": {"fillKey": "mid5",
+"population": 903987814
+},
+"ECU": {"fillKey": "mid2",
+"population": 15902916
+},
+"EGY": {"fillKey": "mid4",
+"population": 87613909
+},
+"EMU": {"fillKey": "mid5",
+"population": 338617134
+},
+"ESP": {"fillKey": "mid3",
+"population": 46480882
+},
+"EST": {"fillKey": "low",
+"population": 1314545
+},
+"ETH": {"fillKey": "mid4",
+"population": 96958732
+},
+"EUU": {"fillKey": "mid5",
+"population": 508344735
+},
+"FCS": {"fillKey": "mid5",
+"population": 474395380
+},
+"FIN": {"fillKey": "mid1",
+"population": 5461512
+},
+"FJI": {"fillKey": "low",
+"population": 886450
+},
+"FRA": {"fillKey": "mid4",
+"population": 66495940
+},
+"FRO": {"fillKey": "low",
+"population": 48221
+},
+"FSM": {"fillKey": "low",
+"population": 103718
+},
+"GAB": {"fillKey": "low",
+"population": 1687673
+},
+"GBR": {"fillKey": "mid4",
+"population": 64613160
+},
+"GEO": {"fillKey": "low",
+"population": 3727000
+},
+"GHA": {"fillKey": "mid2",
+"population": 26786598
+},
+"GIB": {"fillKey": "low",
+"population": 31997
+},
+"GIN": {"fillKey": "mid2",
+"population": 12275527
+},
+"GMB": {"fillKey": "low",
+"population": 1866878
+},
+"GNB": {"fillKey": "low",
+"population": 1800513
+},
+"GNQ": {"fillKey": "low",
+"population": 820885
+},
+"GRC": {"fillKey": "mid2",
+"population": 10892413
+},
+"GRD": {"fillKey": "low",
+"population": 106349
+},
+"GRL": {"fillKey": "low",
+"population": 56295
+},
+"GTM": {"fillKey": "mid2",
+"population": 16015494
+},
+"GUM": {"fillKey": "low",
+"population": 167543
+},
+"GUY": {"fillKey": "low",
+"population": 763893
+},
+"HIC": {"fillKey": "high",
+"population": 1180597445
+},
+"HKG": {"fillKey": "mid1",
+"population": 7187500
+},
+"HND": {"fillKey": "mid1",
+"population": 7961680
+},
+"HPC": {"fillKey": "mid5",
+"population": 701714118
+},
+"HRV": {"fillKey": "low",
+"population": 4238389
+},
+"HTI": {"fillKey": "mid2",
+"population": 10572029
+},
+"HUN": {"fillKey": "mid1",
+"population": 9866468
+},
+"IBD": {"fillKey": "high",
+"population": 4499429071
+},
+"IBT": {"fillKey": "high",
+"population": 6104461024
+},
+"IDA": {"fillKey": "high",
+"population": 1605031953
+},
+"IDB": {"fillKey": "mid5",
+"population": 573991143
+},
+"IDN": {"fillKey": "mid5",
+"population": 254454778
+},
+"IDX": {"fillKey": "high",
+"population": 1031040810
+},
+"IMN": {"fillKey": "low",
+"population": 87127
+},
+"IND": {"fillKey": "high",
+"population": 1295291543
+},
+"IRL": {"fillKey": "low",
+"population": 4617225
+},
+"IRN": {"fillKey": "mid4",
+"population": 77152445
+},
+"IRQ": {"fillKey": "mid3",
+"population": 35273293
+},
+"ISL": {"fillKey": "low",
+"population": 327386
+},
+"ISR": {"fillKey": "mid1",
+"population": 8215700
+},
+"ITA": {"fillKey": "mid4",
+"population": 60789140
+},
+"JAM": {"fillKey": "low",
+"population": 2720554
+},
+"JOR": {"fillKey": "mid1",
+"population": 7416083
+},
+"JPN": {"fillKey": "mid5",
+"population": 127131800
+},
+"KAZ": {"fillKey": "mid2",
+"population": 17289224
+},
+"KEN": {"fillKey": "mid3",
+"population": 44863583
+},
+"KGZ": {"fillKey": "mid1",
+"population": 5835500
+},
+"KHM": {"fillKey": "mid2",
+"population": 15328136
+},
+"KIR": {"fillKey": "low",
+"population": 110470
+},
+"KNA": {"fillKey": "low",
+"population": 54944
+},
+"KOR": {"fillKey": "mid3",
+"population": 50219669
+},
+"KSV": {"fillKey": "low",
+"population": 1812771
+},
+"KWT": {"fillKey": "low",
+"population": 3753121
+},
+"LAC": {"fillKey": "mid5",
+"population": 598846559
+},
+"LAO": {"fillKey": "mid1",
+"population": 6689300
+},
+"LBN": {"fillKey": "mid1",
+"population": 5612096
+},
+"LBR": {"fillKey": "low",
+"population": 4396554
+},
+"LBY": {"fillKey": "mid1",
+"population": 6258984
+},
+"LCA": {"fillKey": "low",
+"population": 183645
+},
+"LCN": {"fillKey": "mid5",
+"population": 626285603
+},
+"LDC": {"fillKey": "mid5",
+"population": 931955068
+},
+"LIC": {"fillKey": "mid5",
+"population": 621322015
+},
+"LIE": {"fillKey": "low",
+"population": 37286
+},
+"LKA": {"fillKey": "mid2",
+"population": 20771000
+},
+"LMC": {"fillKey": "high",
+"population": 2885248344
+},
+"LMY": {"fillKey": "high",
+"population": 6080182833
+},
+"LSO": {"fillKey": "low",
+"population": 2109197
+},
+"LTE": {"fillKey": "high",
+"population": 2235786397
+},
+"LTU": {"fillKey": "low",
+"population": 2932367
+},
+"LUX": {"fillKey": "low",
+"population": 556319
+},
+"LVA": {"fillKey": "low",
+"population": 1993782
+},
+"MAC": {"fillKey": "low",
+"population": 568056
+},
+"MAF": {"fillKey": "low",
+"population": 31530
+},
+"MAR": {"fillKey": "mid3",
+"population": 33921203
+},
+"MCO": {"fillKey": "low",
+"population": 37623
+},
+"MDA": {"fillKey": "low",
+"population": 3556397
+},
+"MDG": {"fillKey": "mid2",
+"population": 23571713
+},
+"MDV": {"fillKey": "low",
+"population": 401000
+},
+"MEA": {"fillKey": "mid5",
+"population": 416401841
+},
+"MEX": {"fillKey": "mid5",
+"population": 125385833
+},
+"MHL": {"fillKey": "low",
+"population": 52898
+},
+"MIC": {"fillKey": "high",
+"population": 5458860818
+},
+"MKD": {"fillKey": "low",
+"population": 2072543
+},
+"MLI": {"fillKey": "mid2",
+"population": 17086022
+},
+"MLT": {"fillKey": "low",
+"population": 427364
+},
+"MMR": {"fillKey": "mid3",
+"population": 53437159
+},
+"MNA": {"fillKey": "mid5",
+"population": 356262920
+},
+"MNE": {"fillKey": "low",
+"population": 621810
+},
+"MNG": {"fillKey": "low",
+"population": 2909871
+},
+"MNP": {"fillKey": "low",
+"population": 54541
+},
+"MOZ": {"fillKey": "mid2",
+"population": 27216276
+},
+"MRT": {"fillKey": "low",
+"population": 3969625
+},
+"MUS": {"fillKey": "low",
+"population": 1260934
+},
+"MWI": {"fillKey": "mid2",
+"population": 16695253
+},
+"MYS": {"fillKey": "mid2",
+"population": 29901997
+},
+"NAC": {"fillKey": "mid5",
+"population": 354516198
+},
+"NAM": {"fillKey": "low",
+"population": 2402858
+},
+"NCL": {"fillKey": "low",
+"population": 268000
+},
+"NER": {"fillKey": "mid2",
+"population": 19113728
+},
+"NGA": {"fillKey": "mid5",
+"population": 177475986
+},
+"NIC": {"fillKey": "mid1",
+"population": 6013913
+},
+"NLD": {"fillKey": "mid2",
+"population": 16865008
+},
+"NOR": {"fillKey": "mid1",
+"population": 5137232
+},
+"NPL": {"fillKey": "mid2",
+"population": 28174724
+},
+"NRU": {"fillKey": "low",
+"population": 10176
+},
+"NZL": {"fillKey": "low",
+"population": 4509700
+},
+"OED": {"fillKey": "high",
+"population": 1274981875
+},
+"OMN": {"fillKey": "low",
+"population": 4236057
+},
+"OSS": {"fillKey": "mid2",
+"population": 28142985
+},
+"PAK": {"fillKey": "mid5",
+"population": 185044286
+},
+"PAN": {"fillKey": "low",
+"population": 3867535
+},
+"PER": {"fillKey": "mid3",
+"population": 30973148
+},
+"PHL": {"fillKey": "mid4",
+"population": 99138690
+},
+"PLW": {"fillKey": "low",
+"population": 21097
+},
+"PNG": {"fillKey": "mid1",
+"population": 7463577
+},
+"POL": {"fillKey": "mid3",
+"population": 38011735
+},
+"PRE": {"fillKey": "mid5",
+"population": 826352062
+},
+"PRI": {"fillKey": "low",
+"population": 3534888
+},
+"PRK": {"fillKey": "mid2",
+"population": 24895705
+},
+"PRT": {"fillKey": "mid2",
+"population": 10401062
+},
+"PRY": {"fillKey": "mid1",
+"population": 6552518
+},
+"PSS": {"fillKey": "low",
+"population": 2323513
+},
+"PST": {"fillKey": "high",
+"population": 1092938826
+},
+"PYF": {"fillKey": "low",
+"population": 279781
+},
+"QAT": {"fillKey": "low",
+"population": 2172065
+},
+"ROU": {"fillKey": "mid2",
+"population": 19908979
+},
+"RUS": {"fillKey": "mid5",
+"population": 143819569
+},
+"RWA": {"fillKey": "mid2",
+"population": 11341544
+},
+"SAS": {"fillKey": "high",
+"population": 1721152580
+},
+"SAU": {"fillKey": "mid3",
+"population": 30886545
+},
+"SDN": {"fillKey": "mid3",
+"population": 39350274
+},
+"SEN": {"fillKey": "mid2",
+"population": 14672557
+},
+"SGP": {"fillKey": "mid1",
+"population": 5469724
+},
+"SLB": {"fillKey": "low",
+"population": 572171
+},
+"SLE": {"fillKey": "mid1",
+"population": 6315627
+},
+"SLV": {"fillKey": "mid1",
+"population": 6107706
+},
+"SMR": {"fillKey": "low",
+"population": 31595
+},
+"SOM": {"fillKey": "mid2",
+"population": 10517569
+},
+"SRB": {"fillKey": "mid1",
+"population": 7130576
+},
+"SSA": {"fillKey": "mid5",
+"population": 974280491
+},
+"SSD": {"fillKey": "mid2",
+"population": 11911184
+},
+"SSF": {"fillKey": "mid5",
+"population": 974371891
+},
+"SST": {"fillKey": "mid3",
+"population": 37479355
+},
+"STP": {"fillKey": "low",
+"population": 186342
+},
+"SUR": {"fillKey": "low",
+"population": 538248
+},
+"SVK": {"fillKey": "mid1",
+"population": 5418649
+},
+"SVN": {"fillKey": "low",
+"population": 2061980
+},
+"SWE": {"fillKey": "mid1",
+"population": 9696110
+},
+"SWZ": {"fillKey": "low",
+"population": 1269112
+},
+"SXM": {"fillKey": "low",
+"population": 37685
+},
+"SYC": {"fillKey": "low",
+"population": 91400
+},
+"SYR": {"fillKey": "mid2",
+"population": 18772481
+},
+"TCA": {"fillKey": "low",
+"population": 33740
+},
+"TCD": {"fillKey": "mid2",
+"population": 13587053
+},
+"TEA": {"fillKey": "high",
+"population": 1995584007
+},
+"TEC": {"fillKey": "mid5",
+"population": 451234370
+},
+"TGO": {"fillKey": "mid1",
+"population": 7115163
+},
+"THA": {"fillKey": "mid4",
+"population": 67725979
+},
+"TJK": {"fillKey": "mid1",
+"population": 8295840
+},
+"TKM": {"fillKey": "mid1",
+"population": 5307188
+},
+"TLA": {"fillKey": "mid5",
+"population": 610149938
+},
+"TMN": {"fillKey": "mid5",
+"population": 351968238
+},
+"TLS": {"fillKey": "low",
+"population": 1212107
+},
+"TON": {"fillKey": "low",
+"population": 105586
+},
+"TSA": {"fillKey": "high",
+"population": 1721152580
+},
+"TSS": {"fillKey": "mid5",
+"population": 974371891
+},
+"TTO": {"fillKey": "low",
+"population": 1354483
+},
+"TUN": {"fillKey": "mid2",
+"population": 10996600
+},
+"TUR": {"fillKey": "mid4",
+"population": 77523788
+},
+"TUV": {"fillKey": "low",
+"population": 9893
+},
+"TZA": {"fillKey": "mid3",
+"population": 51822621
+},
+"UGA": {"fillKey": "mid3",
+"population": 37782971
+},
+"UKR": {"fillKey": "mid3",
+"population": 45362900
+},
+"UMC": {"fillKey": "high",
+"population": 2573612474
+},
+"URY": {"fillKey": "low",
+"population": 3419516
+},
+"USA": {"fillKey": "mid5",
+"population": 318907401
+},
+"UZB": {"fillKey": "mid3",
+"population": 30757700
+},
+"VCT": {"fillKey": "low",
+"population": 109360
+},
+" RB": {"fillKey": "mid3",
+"population": 30276045
+},
+"VGB": {"fillKey": "low",
+"population": 29585
+},
+"VIR": {"fillKey": "low",
+"population": 104170
+},
+"VNM": {"fillKey": "mid4",
+"population": 90728900
+},
+"VUT": {"fillKey": "low",
+"population": 258883
+},
+"PSE": {"fillKey": "low",
+"population": 4294682
+},
+"WLD": {"fillKey": "high",
+"population": 7260780278
+},
+"WSM": {"fillKey": "low",
+"population": 191845
+},
+"YEM": {"fillKey": "mid2",
+"population": 25533217
+},
+"ZAF": {"fillKey": "mid3",
+"population": 54058647
+},
+"COD": {"fillKey": "mid4",
+"population": 72552861
+},
+"ZMB": {"fillKey": "mid2",
+"population": 15721343
+},
+"ZWE": {"fillKey": "mid2",
+"population": 15245855
+}
+
+}}

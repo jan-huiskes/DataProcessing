@@ -1,0 +1,66 @@
+/*
+Jan Huiskes
+10740929
+*/
+/* positioning */
+.legend { list-style: none; }
+.legend li { float: none; margin-right: 10px; }
+.legend span { border: 1px solid #ccc; float: left; width: 12px; height: 12px; margin: 2px; }
+/* colors */
+.legend .lower { background-color: #ffffcc; }
+.legend .middle1 { background-color: #fcc5c0; }
+.legend .middle2 { background-color: #fa9fb5; }
+.legend .middle3 { background-color: #f768a1; }
+.legend .middle4 { background-color: #dd3497; }
+.legend .middle5 { background-color: #ae017e; }
+.legend .upper { background-color: #7a0177; }
+.legend .unknown { background-color: #EDDC4E; }
+/*
+Jan Huiskes
+10740929
+*/
+
+
+/* Title style */
+
+.axTitle {
+  fill: black;
+  font: 16px sans-serif;
+}
+
+.Title {
+  fill: black;
+  font: 25px sans-serif;
+  font-weight: bold;
+}
+#unknown-text {
+  fill: black;
+  font: 25px sans-serif;
+  font-weight: bold;
+}
+
+/* Hover style  */
+.bar:hover {
+  fill: brown;
+}
+
+.d3-tip {
+  line-height: 1;
+  padding: 6px;
+  background: rgba(0, 0, 0, 1);
+  color: #fff;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+
+/* Axes style */
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+.axis text {
+  font: 10px sans-serif;
+}
