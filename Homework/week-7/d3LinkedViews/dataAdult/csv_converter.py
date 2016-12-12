@@ -19,10 +19,10 @@ csvfile2 = csv.writer(f)
 for row in csvfile1:
     row = row.replace('"', '').split(',')
     if len(row[1]) == 3 and str(row[59]) != '' :
-        row = str(row[1]), str(round(float(row[59]), 1))
+        row = str(row[0]), str(row[1]), str(round(float(row[59]), 1))
         csvfile2.writerow(row)
     elif len(row[2]) == 3 and str(row[59]) != '' :
-        row = str(row[2]), str(round(float(row[59]), 1))
+        row = str(row[0]), str(row[2]), str(round(float(row[59]), 1))
         csvfile2.writerow(row)
 csvfile1.close()
 f.close

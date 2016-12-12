@@ -15,13 +15,14 @@ Jan Huiskes
 .legend .middle5 { background-color: #ae017e; }
 .legend .upper { background-color: #7a0177; }
 .legend .unknown { background-color: #EDDC4E; }
-/*
-Jan Huiskes
-10740929
-*/
 
+/* Back ground color */
+body
+{
+background: #E0E0E0;
+}
 
-/* Title style */
+/* Title and text style */
 
 .axTitle {
   fill: black;
@@ -39,11 +40,20 @@ Jan Huiskes
   font-weight: bold;
 }
 
-/* Hover style  */
-.bar:hover {
-  fill: brown;
+/* Drop down menu  */
+.drop select{
+  background: #567ba0;;
+  width: 268px;
+  padding: 5px;
+  font-size: 16px;
+  line-height: 1;
+  border: 0;
+  border-radius: 0;
+  height: 34px;
+  color: #fff;
 }
 
+/* Pop up */
 .d3-tip {
   line-height: 1;
   padding: 6px;

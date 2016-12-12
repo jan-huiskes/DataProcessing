@@ -10,9 +10,9 @@ sys.setdefaultencoding('utf8')
 
 
 # convert data to json
-jsonfile = open('data.json', 'w')
+jsonfile = open('kid.json', 'w')
 csvfile3 = open('countries2.csv', 'r')
-fieldnames = ("country", "kids")
+fieldnames = ("country", "id", "kids")
 reader = csv.DictReader(csvfile3, fieldnames)
 jsonfile.write('{')
 jsonfile.write('\n')
@@ -21,7 +21,7 @@ jsonfile.write('\n')
 i = 0
 for row in reader:
     json.dump(row, jsonfile, ensure_ascii=False)
-    if i != 239: # number of lines - 1
+    if i != 199: # number of lines - 1
         jsonfile.write(',\n')
     i += 1
 
